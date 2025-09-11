@@ -1,0 +1,56 @@
+<link rel="stylesheet" href="style.css" />
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="container">
+    <!-- SIDEBAR -->
+    <aside class="sidebar">
+      <h2>My Portfolio</h2>
+      <nav>
+        <ul>
+          <li><a href="#" onclick="showSection('profile')">Profile</a></li>
+          <li><a href="#" onclick="showSection('projects')">Projects</a></li>
+          <li><a href="#" onclick="showSection('education')">Education</a></li>
+          <li><a href="#" onclick="showSection('experience')">Experience</a></li>
+          <li><a href="#" onclick="showSection('certifications')">Certifications</a></li>
+        </ul>
+      </nav>
+    </aside>
+
+    <!-- CONTENT -->
+    <main class="content">
+      <section id="profile"> <h2>Profile</h2> <p>...</p> </section>
+      <section id="projects"> <h2>Projects</h2> <p>...</p> </section>
+      <section id="education"> <h2>Education</h2> <p>...</p> </section>
+      <section id="experience"> <h2>Experience</h2> <p>...</p> </section>
+      <section id="certifications"> <h2>Certifications</h2> <p>...</p> </section>
+    </main>
+
+    <!-- SCRIPT TO CONTROL SECTIONS -->
+    <script>
+      function showSection(id) {
+        const sections = document.querySelectorAll('main section');
+        sections.forEach(section => {
+          section.style.display = section.id === id ? 'block' : 'none';
+        });
+      }
+
+      // Show profile by default on load
+      window.onload = function () {
+        showSection('profile');
+      };
+    </script>
+
+
+  </div>
+
+</body>
+</html>

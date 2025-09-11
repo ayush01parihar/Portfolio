@@ -1,0 +1,68 @@
+✅ Recommended Pages for Your Portfolio
+🧑‍💼 1. Profile / About Me
+
+Profile photo (professional, friendly)
+
+Brief bio or intro (2–3 lines)
+
+GitHub, LinkedIn, Email
+
+Optional: short tagline (e.g., "Software Developer passionate about clean code and creative problem-solving")
+
+✨ Optional Add-ons:
+
+Downloadable resume button
+
+Fun personal facts (optional)
+
+💻 2. Personal Projects
+
+For each project:
+
+Title & short description
+
+Technologies used (badges or tags)
+
+GitHub link or live demo (if available)
+
+Optional: Screenshot, video, or GIF
+
+Structure tip: Use cards or grid layout to keep it visual and clean.
+
+🎓 3. Education
+
+Degree(s), University name
+
+Year of graduation
+
+Relevant coursework or achievements
+
+Optional: GPA, certificates, publications, etc.
+
+🧳 4. Work Experience
+
+Job title, Company name, Duration
+
+Description of your role and responsibilities
+
+Key accomplishments or projects
+
+Pro tip: Use bullet points; start each one with a strong action verb (e.g., "Built", "Led", "Improved", "Collaborated").
+
+📜 5. Certifications
+
+Name of certification
+
+Issuing organization
+
+Date earned
+
+Optional: badge or link to credential
+
+Examples:
+
+AWS Certified Cloud Practitioner
+
+Google Data Analytics Certificate
+
+Coursera, Udemy, Microsoft, etc.
